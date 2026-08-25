@@ -31,7 +31,7 @@ The model was trained on a custom dataset containing images of bare PCBs. The da
 5. `spur`
 6. `spurious_copper`
 
-*(Note: The raw dataset and model weights are not included in this repository due to size constraints. The original dataset can be found on [Roboflow Universe - PCB Defects](https://universe.roboflow.com/university-2xdiy/pcb-defects-chi1b). The model can be retrained using the provided scripts).*
+*(Note: The raw dataset and model weights are not included in this repository due to size constraints. The original training dataset can be found on [Roboflow Universe - PCB Defects](https://universe.roboflow.com/university-2xdiy/pcb-defects-chi1b), and additional test data can be sourced from [here](https://universe.roboflow.com/new-njrpn/pcb-defects-nksbq/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true). The model can be retrained using the provided scripts).*
 
 ## 💻 Installation & Setup
 
@@ -49,7 +49,7 @@ The model was trained on a custom dataset containing images of bare PCBs. The da
 
 3. **Install dependencies**
    ```bash
-   pip install ultralytics
+   pip install ultralytics streamlit opencv-python-headless
    ```
 
 ## 🧠 Training the Model
@@ -59,5 +59,9 @@ python train.py
 ```
 *Training is configured to run on a dedicated GPU (e.g., RTX GPU) for significantly faster processing times.*
 
----
-*This project was developed to demonstrate practical skills in Computer Vision, Data Annotation, and Model Training for industrial applications.*
+## 🌐 Running the Web App
+You can test the trained model interactively using the included Streamlit web application.
+```bash
+streamlit run app.py
+```
+This will launch a local web server where you can upload raw PCB images and visualize the defect detection bounding boxes in real-time.
