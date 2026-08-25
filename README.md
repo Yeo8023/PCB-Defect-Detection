@@ -6,6 +6,10 @@
 ![Roboflow](https://img.shields.io/badge/Dataset-Roboflow-6706CE?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
 
+<div align="center">
+  <img src="demo.png" alt="Streamlit App Demo" width="800">
+</div>
+
 An automated computer vision system designed to detect manufacturing defects on Printed Circuit Boards (PCBs). This project leverages state-of-the-art **YOLOv8** object detection to identify anomalies such as missing holes, mouse bites, open circuits, shorts, spurs, and spurious copper in real-time.
 
 ## 🎯 Project Overview
