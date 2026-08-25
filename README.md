@@ -1,5 +1,11 @@
 # PCB Defect Detection System
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-FF9900?style=flat-square&logo=yolo)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Roboflow](https://img.shields.io/badge/Dataset-Roboflow-6706CE?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
+
 An automated computer vision system designed to detect manufacturing defects on Printed Circuit Boards (PCBs). This project leverages state-of-the-art **YOLOv8** object detection to identify anomalies such as missing holes, mouse bites, open circuits, shorts, spurs, and spurious copper in real-time.
 
 ## 🎯 Project Overview
