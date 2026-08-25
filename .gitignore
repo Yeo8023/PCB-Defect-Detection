@@ -1,0 +1,19 @@
+# Python Virtual Environment
+venv/
+env/
+.env
+
+# Datasets (Do not push massive datasets to GitHub)
+PCB-Defects*/
+dataset/
+data/
+
+# Model Weights and Training Logs
+runs/
+*.pt
+*.onnx
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
